@@ -4,7 +4,7 @@ $(function() {
     var listing_thead = $('.listing thead');
     var sorted_cols = listing_thead.find('th.sorted');
     order_header.find('a').addClass('text-replace').removeClass('icon icon-arrow-down-after icon-arrow-up-after');
-    order_header.find('a').html('<span class="icon icon-order" aria-hidden="true"></span> Sort');
+    order_header.find('a').html('<svg class="icon icon-order" aria-hidden="true"><use href="#icon-order"></use></svg>');
     if(sorted_cols.length == 1 && order_header.hasClass('sorted') && order_header.hasClass('ascending')){
         order_header.find('a').attr('title', 'Restore default list ordering').attr('href', '?');
         listing_tbody.sortable({
