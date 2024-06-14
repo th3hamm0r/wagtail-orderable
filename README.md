@@ -4,8 +4,6 @@ Simple orderable mixin to add drag-and-drop ordering support to the `ModelAdmin`
 
 It attempts to provide the [feature request](https://github.com/wagtail/wagtail/issues/2941) in Wagtail project without modifying the project code as it seems not a high priority item for the project.
 
-From Wagtail >= 5.2, ModelAdmin has been moved to a separate package. If you are using Wagtail 5.2 or later, you need to install `wagtail-modeladmin` separately from https://github.com/wagtail-nest/wagtail-modeladmin.
-
 ### Installation
 
 Install the package
@@ -101,6 +99,15 @@ python manage.py collectstatic
 in your project.
 
 ### Change Log
+
+Unreleased
+---
+- Wagtail 6.1 support
+- Drop support for Django < 4.2
+
+1.3.0+tbx
+---
+- Wagtail 6.0 support
 
 1.2.0
 ---

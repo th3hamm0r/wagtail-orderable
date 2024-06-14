@@ -18,8 +18,8 @@ CLASSIFIERS = [
     'Operating System :: OS Independent',
     'Programming Language :: Python',
     "Framework :: Django",
-    "Framework :: Django :: 3.2",
     "Framework :: Django :: 4.2",
+    "Framework :: Django :: 5.0",
     'License :: OSI Approved :: zlib/libpng License',
     "Programming Language :: Python :: 3",
     "Programming Language :: Python :: 3.8",
@@ -28,7 +28,6 @@ CLASSIFIERS = [
     "Programming Language :: Python :: 3.11",
     "Programming Language :: Python :: 3.12",
     "Framework :: Wagtail",
-    "Framework :: Wagtail :: 4",
     "Framework :: Wagtail :: 5",
     "Framework :: Wagtail :: 6",
 
